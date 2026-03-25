@@ -1,0 +1,16 @@
+@EF core_HostAddress = https://localhost:7104
+@EF_core_HostAddress = http://localhost:5232
+
+GET {{EF_core_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{EF core_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  //LoginModel
+}
+
+###
